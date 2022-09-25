@@ -1,9 +1,44 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<section id="qna" class="page-container">
+    <div class="page">
 
-<h1>Hello, world!</h1>
+        <div class="questions-n-answers">
+            <div class="qna-card">
+                <div class="q-head">
+                    <h1>Question?</h1>
+                    <h1 class="toggle">+</h1>
+                </div>
 
-Welcome to your new app.
+                <div class="a-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur facilis placeat a repellat dicta incidunt voluptatibus id quidem, natus necessitatibus quasi veniam ex at ipsam laboriosam sequi eum. Harum?
+                    </p>
+                </div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+                <div class="img-content">
+                    <img src="/img/namespace-code.png" />
+                </div>
+            </div>
+        </div>
+
+        <div class="new-q-a-container">
+            <div class="new-q-a">
+                <div class="add-btn">
+                    <button class="btn-primary">Add new</button>
+                </div>
+
+                <div class="add-new-form">
+                    <input placeholder="Question" />
+                    <textarea placeholder="Answer"></textarea>
+                    <input placeholder="Img Source"/>
+                    <button class="btn-primary">Add</button>
+                    <button class="btn-primary">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</section>

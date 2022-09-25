@@ -13,13 +13,13 @@ namespace QuestionsAndAnswers.Repositories
             _context = context;
         }
 
-        public async Task CreateQnA(QnA qnA)
+        public async Task RegisterQnA(QnA qnA)
         {
             await _context.AddAsync(qnA);
             await _context.SaveChangesAsync();
         }
 
-        public async ValueTask<IEnumerable<QnA>> GetAllQnAs(QnA qnA)
+        public async ValueTask<IEnumerable<QnA>> GetAllQnAs()
         {
             return await _context.QnAs.ToListAsync();
         }

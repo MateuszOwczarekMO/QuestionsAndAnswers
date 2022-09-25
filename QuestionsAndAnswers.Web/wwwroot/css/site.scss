@@ -1,0 +1,116 @@
+$background-color: rgb(19, 26, 41);
+$text-color: rgb(235, 237, 243);
+$q-head-bg: rgb(29, 38, 56);
+$a-bg: rgb(41, 51, 71);
+
+h1 {
+  outline: none !important;
+}
+
+body {
+  background-color: $background-color;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  padding: 3em 0;
+}
+
+.page {
+  width: 100%;
+  max-width: 1200px;
+}
+
+#qna {
+  color: $text-color;
+
+  .qna-card {
+
+    .q-head {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border-radius: 0.5em 0.5em 0 0;
+      font-size: 1.3rem;
+      padding: 0 1em;
+      background-color: $q-head-bg;
+      cursor: pointer;
+    }
+
+    .toggle {
+      text-align: right;
+    }
+
+    .a-content {
+      background-color: $a-bg;
+      padding: 1em 1em;
+      font-size: 1.1rem;
+    }
+
+    .img-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: center;
+      padding: 1em 0;
+      background-color: $q-head-bg;
+    }
+  }
+
+  .new-q-a-container {
+    display: flex;
+    justify-content: center;
+
+    .new-q-a {
+      width: 100%;
+      max-width: 700px;
+    }
+  }
+
+  .btn-primary {
+    background-color: $a-bg;
+    width: 100%;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    font-size: 1.2rem;
+    margin: 0.5em 0;
+    cursor: pointer;
+    color: $text-color;
+  }
+
+  .add-new-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  input {
+    box-sizing: border-box;
+    background-color: $q-head-bg;
+    width: 100%;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    font-size: 1.2rem;
+    margin: 0.5em 0;
+    color: $text-color;
+  }
+
+  textarea {
+    box-sizing: border-box;
+    background-color: $q-head-bg;
+    width: 100%;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    height: 100px;
+    font-size: 1.2rem;
+    margin: 0.5em 0;
+    color: $text-color;
+  }
+}
+
+#blazor-error-ui {
+  display: none;
+}

@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\QuestionsAndAnswers.Infrastructure.Storeage\QuestionsAndAnswers.Infrastructure.Storeage.csproj" />
     <ProjectReference Include="..\QuestionsAndAnswers.Repositories\QuestionsAndAnswers.Repositories.csproj" />
   </ItemGroup>

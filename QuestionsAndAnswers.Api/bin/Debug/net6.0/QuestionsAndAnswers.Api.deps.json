@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "6.0.9",
           "QuestionsAndAnswers.Infrastructure.Storeage": "1.0.0",
+          "QuestionsAndAnswers.Repositories": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -370,6 +371,16 @@
         "runtime": {
           "QuestionsAndAnswers.Models.dll": {}
         }
+      },
+      "QuestionsAndAnswers.Repositories/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "QuestionsAndAnswers.Infrastructure.Storeage": "1.0.0",
+          "QuestionsAndAnswers.Models": "1.0.0"
+        },
+        "runtime": {
+          "QuestionsAndAnswers.Repositories.dll": {}
+        }
       }
     }
   },
@@ -637,6 +648,11 @@
       "sha512": ""
     },
     "QuestionsAndAnswers.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuestionsAndAnswers.Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
