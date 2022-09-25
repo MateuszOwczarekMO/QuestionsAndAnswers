@@ -1,0 +1,17 @@
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\bin\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.deps.json
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\bin\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.runtimeconfig.json
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\bin\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.dll
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\bin\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.pdb
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\bin\Debug\net6.0\QuestionsAndAnswers.Models.dll
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\bin\Debug\net6.0\QuestionsAndAnswers.Models.pdb
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\obj\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.csproj.AssemblyReference.cache
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\obj\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\obj\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.AssemblyInfoInputs.cache
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\obj\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.AssemblyInfo.cs
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\obj\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\obj\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.csproj.CopyComplete
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\obj\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.dll
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\obj\Debug\net6.0\refint\QuestionsAndAnswers.Infrastructure.Storeage.dll
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\obj\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.pdb
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\obj\Debug\net6.0\QuestionsAndAnswers.Infrastructure.Storeage.genruntimeconfig.cache
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Infrastructure.Storeage\obj\Debug\net6.0\ref\QuestionsAndAnswers.Infrastructure.Storeage.dll

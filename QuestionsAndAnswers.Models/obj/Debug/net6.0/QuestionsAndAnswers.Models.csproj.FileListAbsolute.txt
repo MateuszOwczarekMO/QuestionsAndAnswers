@@ -1,0 +1,12 @@
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Models\bin\Debug\net6.0\QuestionsAndAnswers.Models.deps.json
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Models\bin\Debug\net6.0\QuestionsAndAnswers.Models.dll
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Models\bin\Debug\net6.0\QuestionsAndAnswers.Models.pdb
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Models\obj\Debug\net6.0\QuestionsAndAnswers.Models.csproj.AssemblyReference.cache
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Models\obj\Debug\net6.0\QuestionsAndAnswers.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Models\obj\Debug\net6.0\QuestionsAndAnswers.Models.AssemblyInfoInputs.cache
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Models\obj\Debug\net6.0\QuestionsAndAnswers.Models.AssemblyInfo.cs
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Models\obj\Debug\net6.0\QuestionsAndAnswers.Models.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Models\obj\Debug\net6.0\QuestionsAndAnswers.Models.dll
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Models\obj\Debug\net6.0\refint\QuestionsAndAnswers.Models.dll
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Models\obj\Debug\net6.0\QuestionsAndAnswers.Models.pdb
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Models\obj\Debug\net6.0\ref\QuestionsAndAnswers.Models.dll
