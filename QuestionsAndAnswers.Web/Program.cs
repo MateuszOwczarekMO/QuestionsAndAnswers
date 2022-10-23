@@ -1,19 +1,27 @@
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
+using QuestionsAndAnswers.Web.Services;
+using QuestionsAndAnswers.Web.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+var config = new ConfigurationBuilder()
+        .AddJsonFile("appsettings.json", optional: false)
+        .Build();
+
+var apiSettings = config.GetSection(nameof(ApiSettings)).Get<ApiSettings>();
+
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
+builder.Services.AddHttpClient<IQnAService, QnAService>(client =>
+{
+    client.BaseAddress = new Uri(apiSettings.Host);
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

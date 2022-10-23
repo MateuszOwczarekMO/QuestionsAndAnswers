@@ -26,10 +26,11 @@ body {
   color: $text-color;
 
   .qna-card {
+    margin-bottom: 1em;
 
     .q-head {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 90% 10%;
       border-radius: 0.5em 0.5em 0 0;
       font-size: 1.3rem;
       padding: 0 1em;
@@ -44,7 +45,7 @@ body {
     .a-content {
       background-color: $a-bg;
       padding: 1em 1em;
-      font-size: 1.1rem;
+      font-size: 1.6rem;
     }
 
     .img-content {

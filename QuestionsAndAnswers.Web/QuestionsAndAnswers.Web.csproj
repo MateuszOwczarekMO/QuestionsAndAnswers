@@ -11,4 +11,8 @@
     <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\QuestionsAndAnswers.Models\QuestionsAndAnswers.Models.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -24,3 +24,6 @@ C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Web\obj\De
 C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Web\obj\Debug\net6.0\QuestionsAndAnswers.Web.pdb
 C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Web\obj\Debug\net6.0\QuestionsAndAnswers.Web.genruntimeconfig.cache
 C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Web\obj\Debug\net6.0\ref\QuestionsAndAnswers.Web.dll
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Web\bin\Debug\net6.0\QuestionsAndAnswers.Models.dll
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Web\bin\Debug\net6.0\QuestionsAndAnswers.Models.pdb
+C:\Users\Mateusz\source\repos\QuestionsAndAnswers\QuestionsAndAnswers.Web\obj\Debug\net6.0\QuestionsAndAnswers.Web.csproj.CopyComplete

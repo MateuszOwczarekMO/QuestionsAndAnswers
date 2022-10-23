@@ -1,44 +1,67 @@
-﻿@page "/"
+﻿@page "/";
+@using QuestionsAndAnswers.Web.Pages.Bases
+@inherits IndexBase;
 
-<section id="qna" class="page-container">
-    <div class="page">
+@if (!Loading)
+{
+    <section id="qna" class="page-container">
+        <div class="page">
+            <div class="new-q-a-container">
+                <div class="new-q-a">
+                    @if (!ShowAddForm)
+                    {
+                        <div class="add-btn">
+                            <button @onclick="ToggleAddQnA" class="btn-primary">Add new</button>
+                        </div>
+                    }
 
-        <div class="questions-n-answers">
-            <div class="qna-card">
-                <div class="q-head">
-                    <h1>Question?</h1>
-                    <h1 class="toggle">+</h1>
-                </div>
-
-                <div class="a-content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consectetur facilis placeat a repellat dicta incidunt voluptatibus id quidem, natus necessitatibus quasi veniam ex at ipsam laboriosam sequi eum. Harum?
-                    </p>
-                </div>
-
-                <div class="img-content">
-                    <img src="/img/namespace-code.png" />
-                </div>
-            </div>
-        </div>
-
-        <div class="new-q-a-container">
-            <div class="new-q-a">
-                <div class="add-btn">
-                    <button class="btn-primary">Add new</button>
-                </div>
-
-                <div class="add-new-form">
-                    <input placeholder="Question" />
-                    <textarea placeholder="Answer"></textarea>
-                    <input placeholder="Img Source"/>
-                    <button class="btn-primary">Add</button>
-                    <button class="btn-primary">Cancel</button>
+                    @if (ShowAddForm)
+                    {
+                        <div class="add-new-form">
+                            <input @bind="Question" placeholder="Question" />
+                            <textarea @bind="Answer" placeholder="Answer"></textarea>
+                            <input @bind="ImgUrl" placeholder="Img Source" />
+                            <button @onclick="AddQnA" class="btn-primary">Add</button>
+                            <button @onclick="ToggleAddQnA" class="btn-primary">Cancel</button>
+                        </div>
+                    }
                 </div>
             </div>
+            <div class="questions-n-answers">
+                @foreach (var qna in QnAs)
+                {
+                    <div class="qna-card">
+                        <div @onclick="(e => ToggleQnA(qna.Data.Id))" class="q-head">
+                            <h1>@qna.Data.Question</h1>
+
+                            @if (qna.Show)
+                            {
+                                <h1 class="toggle">-</h1>
+                            }
+                            else
+                            {
+                                <h1 class="toggle">+</h1>
+                            }
+                        </div>
+
+                        @if (qna.Show)
+                        {
+                            <div class="a-content">
+                                <p>
+                                    @qna.Data.Answer
+                                </p>
+                            </div>
+
+                            @if (!string.IsNullOrEmpty(qna.Data.ImgUrl))
+                            {
+                                <div class="img-content">
+                                    <img src="@qna.Data.ImgUrl" />
+                                </div>
+                            }
+                        }
+                    </div>
+                }
+            </div>
         </div>
-
-
-
-    </div>
-</section>
+    </section>
+}

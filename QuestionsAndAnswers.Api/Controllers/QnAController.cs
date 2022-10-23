@@ -25,12 +25,16 @@ namespace QuestionsAndAnswers.Api.Controllers
         [HttpPost]
         public async Task<ActionResult> RegisterQnA(QnA qnA)
         {
+            if (!string.IsNullOrEmpty(qnA.ImgUrl))
+            {
+                qnA.ImgUrl = $"/img/{qnA.ImgUrl}";
+            }
             await _repository.RegisterQnA(qnA);
             return NoContent();
         }
 
         [HttpDelete]
-        public async Task<ActionResult> DeleteQnA(QnA qnA)
+        public async Task<ActionResult> RemoveQnA(QnA qnA)
         {
             await _repository.RemoveQnA(qnA);
             return NoContent();

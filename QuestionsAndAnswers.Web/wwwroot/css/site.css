@@ -25,11 +25,15 @@ body {
   color: #ebedf3;
 }
 
+#qna .qna-card {
+  margin-bottom: 1em;
+}
+
 #qna .qna-card .q-head {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 90% 10%;
+      grid-template-columns: 90% 10%;
   border-radius: 0.5em 0.5em 0 0;
   font-size: 1.3rem;
   padding: 0 1em;
@@ -44,7 +48,7 @@ body {
 #qna .qna-card .a-content {
   background-color: #293347;
   padding: 1em 1em;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
 }
 
 #qna .qna-card .img-content {

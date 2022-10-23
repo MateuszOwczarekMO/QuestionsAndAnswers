@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "QuestionsAndAnswers.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/QuestionsAndAnswers.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuestionsAndAnswers.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "QuestionsAndAnswers.Models/1.0.0": {
+      "type": "project",
+      "path": "../QuestionsAndAnswers.Models/QuestionsAndAnswers.Models.csproj",
+      "msbuildProject": "../QuestionsAndAnswers.Models/QuestionsAndAnswers.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "QuestionsAndAnswers.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Mateusz\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Mateusz\\source\\repos\\QuestionsAndAnswers\\QuestionsAndAnswers.Models\\QuestionsAndAnswers.Models.csproj": {
+              "projectPath": "C:\\Users\\Mateusz\\source\\repos\\QuestionsAndAnswers\\QuestionsAndAnswers.Models\\QuestionsAndAnswers.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

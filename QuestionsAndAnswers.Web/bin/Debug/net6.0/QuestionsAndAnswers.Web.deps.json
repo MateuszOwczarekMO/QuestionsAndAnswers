@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "QuestionsAndAnswers.Web/1.0.0": {
+        "dependencies": {
+          "QuestionsAndAnswers.Models": "1.0.0"
+        },
         "runtime": {
           "QuestionsAndAnswers.Web.dll": {}
+        }
+      },
+      "QuestionsAndAnswers.Models/1.0.0": {
+        "runtime": {
+          "QuestionsAndAnswers.Models.dll": {}
         }
       }
     }
   },
   "libraries": {
     "QuestionsAndAnswers.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuestionsAndAnswers.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
